@@ -23,6 +23,7 @@
     display: flex;
     background: 00FFFFFF;
     position: absolute;
+    padding-top: 1.2em;
  }
 
  .main-nav > ul , #social-nav {
@@ -179,8 +180,37 @@ button {
 
     /* contact me */
 
+    #contact-h1div {
+     background-color: #c5c5c5;
+    }
+
+    #contact-h1div > h1 {
+display: flex;
+align-items: center;
+justify-content:center;
+padding: 1em;
+font-size: 50px;
+color: #008080;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #carnation-img {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px;
+    }
+
+    #contact-div  {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+    }
+
     #contact-main {
-        background-color: #008080;
+        background-color: #c5c5c5;
     }
     .socialnav-a {
         line-height: 60px;
@@ -195,19 +225,50 @@ button {
         background: #fff;
     }
 
-     #social-nav {
-        display: flex; 
-        text-align: lef; 
+    
+
+
+    form {
+        display: inline-block;
+        
+        
         justify-content: space-around;
-        width: 20%;
-        margin: 0;
-         
+        
+        border: 1px solid #008080;
+        
+        overflow: hidden;
+        line-height: 150%;
+        font-family: 'Secular One', sans-serif;
+        padding: 1em;
     }
 
-    fieldset {
-        padding:1em;
-        font-family: 'Secular One', sans-serif;
+    #flex-container {
+        display: flex;
+        align-items: center;
+justify-content:center;
+
     }
+
+    #form-div-flexchild {
+        flex: 1;
+       
+    }
+
+
+    #p-flexchild-div {
+        margin-right: 25px;
+        color: #008080;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow: hidden;
+        line-height: 150%;
+        font-family: 'Secular One', sans-serif;
+        font-size: 40px;
+        padding: 1em;
+        max-width: 35%;
+        justify-content: space-around;
+    }
+
+  
    
     
 
